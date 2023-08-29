@@ -1,0 +1,17 @@
+export const userlogin = "/auth/login";
+export const userregister = "/auth/register";
+export const getCurrentUserData = "auth/current-user";
+export const createinventory = "/inventory/create-inventory";
+export const getinventoryData="/inventory/get-inventory";
+export const  donarDataList="/inventory/get-donars";
+export const hospitalDataList="/inventory/get-hospitals"
+export const  getOrgnisationData="/inventory/get-orgnaisation"
+export const getOrgnaisationForHospital="/inventory/get-orgnaisation-for-hospital"
+export const getInventoryHospital ="/inventory/get-inventory-hospital"
+export const getTotalInOutdata="/analytics/bloodGroups-data"
+export const getRecentInventory= "/inventory/get-recent-inventory"
+export const getDonarlistData="/admin/donar-list"
+export const getHospitalListData="/admin/hospital-list"
+export const getOrgListData="/admin/org-list"
+export const deleteDonar="/admin/delete-donar"
+export const deleteHospital="/admin/delete-donar"
